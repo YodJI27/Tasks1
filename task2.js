@@ -12,6 +12,6 @@ const сountingHandshakes = (arg) => {
     return (arg * (arg + 1)) / 2
 }
 
-сountingHandshakes(10)
+сountingHandshakes(9)
 
-// Ответ: 55 рукопожатий
+// Ответ: 45 рукопожатий
