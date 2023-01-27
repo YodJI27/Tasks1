@@ -7,7 +7,7 @@
 
 const сountingHandshakes = (arg) => {
 
-    if(arg == 0) return 0
+    if(arg == 0 || arg <= 0) return 0
     
     return (arg * (arg + 1)) / 2
 }
